@@ -43,8 +43,6 @@ if not LocalPlayer.PlayerGui:FindFirstChild("HUD") then
     HUD.Parent = LocalPlayer.PlayerGui
 end
 
-task.wait(3.0)
-
 print("I DID FOUND IT, MAYBE IT WILL WORK?")
 RemoteEvent:FireServer("PressedPlay")
 
