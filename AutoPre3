@@ -43,9 +43,11 @@ if not LocalPlayer.PlayerGui:FindFirstChild("HUD") then
     HUD.Parent = LocalPlayer.PlayerGui
 end
 
+task.wait(3.0)
+
 print("I DID FOUND IT, MAYBE IT WILL WORK?")
 RemoteEvent:FireServer("PressedPlay")
-task.wait(5.0)
+
 if LocalPlayer.PlayerGui:FindFirstChild("LoadingScreen1") then
     LocalPlayer.PlayerGui:FindFirstChild("LoadingScreen1"):Destroy()
 end
