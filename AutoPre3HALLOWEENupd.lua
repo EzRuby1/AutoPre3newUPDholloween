@@ -1,32 +1,3 @@
-mongkhoz
-mongkhoz
-ออนไลน์
-
-00Adrn — 1/2/2569 22:24
-20260119-1644-23.7308121.mp4
-Deleted User — 1/2/2569 22:42
-nigga you are a diddy victim your bitch ass cant be talking
-00Adrn — 1/2/2569 23:16
-20260119-1644-23.7308121.mp4
-im diddy
-DinoSux — 4/4/2569 2:52
-sorry to ping but does it still work?
-WHITE DRAGON — 4/4/2569 3:23
-yes
-DinoSux — 4/4/2569 3:23
-tysm
-DinoSux — 7/4/2569 16:22
-auto add stats to hamon fixed
-print("Waiting Lodding")
-task.wait(8.0)
-
-getgenv().standList =  {
-    ["The World"] = true,
-    ["Star Platinum"] = true,
-
-message.txt
-31 KB
-﻿
 print("Waiting Lodding")
 task.wait(8.0)
 
