@@ -1,3 +1,32 @@
+mongkhoz
+mongkhoz
+ออนไลน์
+
+00Adrn — 1/2/2569 22:24
+20260119-1644-23.7308121.mp4
+Deleted User — 1/2/2569 22:42
+nigga you are a diddy victim your bitch ass cant be talking
+00Adrn — 1/2/2569 23:16
+20260119-1644-23.7308121.mp4
+im diddy
+DinoSux — 4/4/2569 2:52
+sorry to ping but does it still work?
+WHITE DRAGON — 4/4/2569 3:23
+yes
+DinoSux — 4/4/2569 3:23
+tysm
+DinoSux — 7/4/2569 16:22
+auto add stats to hamon fixed
+print("Waiting Lodding")
+task.wait(8.0)
+
+getgenv().standList =  {
+    ["The World"] = true,
+    ["Star Platinum"] = true,
+
+message.txt
+31 KB
+﻿
 print("Waiting Lodding")
 task.wait(8.0)
 
@@ -9,13 +38,13 @@ getgenv().standList =  {
     ["King Crimson"] = true,
     ["King Crimson Requiem"] = true
 }
-getgenv().waitUntilCollect = 0.5 --Change this if ur getting kicked a lot
+getgenv().waitUntilCollect = 0.6 --Change this if ur getting kicked a lot
 getgenv().sortOrder = "Asc" --desc for less players, asc for more
 getgenv().lessPing = false --turn this on if u want lower ping servers, cant guarantee you will see same people using script, and data error 1
 getgenv().autoRequiem = true --turn this on for auto requiem
 getgenv().NPCTimeOut = 15 --timeout for npc not spawning
 getgenv().HamonCharge = 90 --change if u want to charge hamon after every kill (around 90)
-getgenv().webhook = "https://discord.com/api/webhooks/1334558164573753344/_qAqIETXHAMPlqldYEpSJHjsMZy1X7CnmtumP72cJ_xWCRmphhg64GUB85eTuwDxyuFp" --change this if u want to use ur own webhook
+getgenv().webhook = "https://discord.com/api/webhooks/1381173563612074085/mSPyu9_6PXn2TwNIzairPJqHnRgORN-YUGQNaj2h-f3ZMWLRxck9TCKdxbDIx6oejUOq" --change this if u want to use ur own webhook
 
 game:GetService("CoreGui").DescendantAdded:Connect(function(child)
     if child.Name == "ErrorPrompt" then
@@ -516,9 +545,9 @@ local function allocateSkills() --this should allocate the destructive shit stuf
         RemoteFunction:InvokeServer("LearnSkill", {["Skill"] = "Destructive Power I",["SkillTreeType"] = "Stand"})
         
         if LocalPlayer.PlayerStats.Spec.Value == "Hamon (William Zeppeli)" then
-            RemoteFunction:InvokeServer("LearnSkill", {["Skill"] = "Lung Capacity II",["SkillTreeType"] = "Spec"})
-            RemoteFunction:InvokeServer("LearnSkill", {["Skill"] = "Breathing Technique II",["SkillTreeType"] = "Spec"})
-            RemoteFunction:InvokeServer("LearnSkill", {["Skill"] = "Hamon Punch I",["SkillTreeType"] = "Spec"})
+            RemoteFunction:InvokeServer("LearnSkill", {["Skill"] = "Hamon Punch III",["SkillTreeType"] = "Spec"})
+            RemoteFunction:InvokeServer("LearnSkill", {["Skill"] = "Lung Capacity III", ["SkillTreeType"] = "Spec"})
+            RemoteFunction:InvokeServer("LearnSkill", {["Skill"] = "Breathing Technique III",["SkillTreeType"] = "Spec"})
         end
     end)
 end
